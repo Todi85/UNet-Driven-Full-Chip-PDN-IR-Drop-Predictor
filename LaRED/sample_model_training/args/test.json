@@ -1,0 +1,13 @@
+{   "gpu": 0,
+    "save_path": "work_dir/sample/",
+    "ann_file": "../feature_extraction/test.csv",
+    "dataroot": "../feature_extraction",
+    "dataset_type": "TestDataset",
+    "model_type": "LaRED",
+    "in_channels": 5,
+    "out_channels": 1,
+    "eval_metric": ["MAE", "corrcoef", "max", "mape"],
+    "pretrained": "./work_dir/sample/RISCY-FPU_LPRED/model_iters_8000.pth",
+    "final_test": false,
+    "plot": true
+}
